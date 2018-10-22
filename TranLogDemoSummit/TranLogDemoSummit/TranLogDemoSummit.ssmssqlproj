@@ -19,107 +19,41 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
-        <FileNode Name="A1 - CreateTranLogDemoDatabase.sql">
+        <FileNode Name="LSR2 - CreateTranLogDemoDatabase.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgtranlogsrv:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>fbgtranlogsrv</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>A1 - CreateTranLogDemoDatabase.sql</FullPath>
+          <FullPath>LSR2 - CreateTranLogDemoDatabase.sql</FullPath>
         </FileNode>
-        <FileNode Name="A1A - RestoreTranLogDemoDBs.sql">
+        <FileNode Name="LSR1 - RestoreTranLogDemoDBs.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgtranlogsrv:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>fbgtranlogsrv</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>A1A - RestoreTranLogDemoDBs.sql</FullPath>
+          <FullPath>LSR1 - RestoreTranLogDemoDBs.sql</FullPath>
         </FileNode>
-        <FileNode Name="A2 - CreateOrderHistoryTables.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
-          <AssociatedConnUserName />
-          <FullPath>A2 - CreateOrderHistoryTables.sql</FullPath>
-        </FileNode>
-        <FileNode Name="A3 - PopulateOrderHistoryBatchedTable.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
-          <AssociatedConnUserName />
-          <FullPath>A3 - PopulateOrderHistoryBatchedTable.sql</FullPath>
-        </FileNode>
-        <FileNode Name="A4 - PopulateOrderHistorySingleTable.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
-          <AssociatedConnUserName />
-          <FullPath>A4 - PopulateOrderHistorySingleTable.sql</FullPath>
-        </FileNode>
-        <FileNode Name="A5 - GetOrderHistoryInfo.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
-          <AssociatedConnUserName />
-          <FullPath>A5 - GetOrderHistoryInfo.sql</FullPath>
-        </FileNode>
-        <FileNode Name="A5A - GetTransactionInfo.sql">
+        <FileNode Name="LSR3 - CreateOrderHistoryTables.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgtranlogsrv:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>fbgtranlogsrv</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>A5A - GetTransactionInfo.sql</FullPath>
+          <FullPath>LSR3 - CreateOrderHistoryTables.sql</FullPath>
         </FileNode>
-        <FileNode Name="A5B - GetActiveTranInfo.sql">
+        <FileNode Name="LSR4 - PopulateOrderHistoryBatchedTable.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgtranlogsrv:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>fbgtranlogsrv</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>A5B - GetActiveTranInfo.sql</FullPath>
+          <FullPath>LSR4 - PopulateOrderHistoryBatchedTable.sql</FullPath>
         </FileNode>
-        <FileNode Name="A5D - ReturnTranResults.sql">
+        <FileNode Name="LSR5 - PopulateOrderHistorySingleTable.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgtranlogsrv:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>fbgtranlogsrv</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>A5D - ReturnTranResults.sql</FullPath>
+          <FullPath>LSR5 - PopulateOrderHistorySingleTable.sql</FullPath>
         </FileNode>
-        <FileNode Name="A6 - BackupTranLogDemoDatabase.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
-          <AssociatedConnUserName />
-          <FullPath>A6 - BackupTranLogDemoDatabase.sql</FullPath>
-        </FileNode>
-        <FileNode Name="A7 - DeleteOrderHistorySingleTable.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
-          <AssociatedConnUserName />
-          <FullPath>A7 - DeleteOrderHistorySingleTable.sql</FullPath>
-        </FileNode>
-        <FileNode Name="A7A - DeleteOrderHistorySingleTable.sql">
+        <FileNode Name="LSR6 - ReturnTranResults.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgtranlogsrv:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>fbgtranlogsrv</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>A7A - DeleteOrderHistorySingleTable.sql</FullPath>
-        </FileNode>
-        <FileNode Name="A8 - DeleteOrderHistoryBatchedTable.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
-          <AssociatedConnUserName />
-          <FullPath>A8 - DeleteOrderHistoryBatchedTable.sql</FullPath>
-        </FileNode>
-        <FileNode Name="A8A - DeleteOrderHistoryBatchedTable.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgtranlogsrv:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>fbgtranlogsrv</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>A8A - DeleteOrderHistoryBatchedTable.sql</FullPath>
-        </FileNode>
-        <FileNode Name="A8B - DeleteOrderHistoryBatchedTableByDate.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgtranlogsrv:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>fbgtranlogsrv</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>A8B - DeleteOrderHistoryBatchedTableByDate.sql</FullPath>
-        </FileNode>
-        <FileNode Name="LR - 4 - RunOrderHistoryBatched.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
-          <AssociatedConnUserName />
-          <FullPath>LR - 4 - RunOrderHistoryBatched.sql</FullPath>
-        </FileNode>
-        <FileNode Name="LR - 5 - RunOrderHistorySingle.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
-          <AssociatedConnUserName />
-          <FullPath>LR - 5 - RunOrderHistorySingle.sql</FullPath>
+          <FullPath>LSR6 - ReturnTranResults.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
