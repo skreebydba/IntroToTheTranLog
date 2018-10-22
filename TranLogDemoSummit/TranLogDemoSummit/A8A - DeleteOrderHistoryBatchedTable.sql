@@ -1,0 +1,22 @@
+USE TranLogDemo_Batched;
+
+DECLARE @deletes INT;
+
+SELECT @deletes = COUNT(*)
+FROM OrderHistoryBatched
+WHERE OrderDate <= DATEADD(MONTH,-2,CURRENT_TIMESTAMP);
+
+WHILE @deletes > 0
+BEGIN
+
+	BEGIN TRANSACTION
+		
+		DELETE TOP (10000)
+		FROM OrderHistoryBatched
+		WHERE OrderDate <= DATEADD(MONTH,-2,CURRENT_TIMESTAMP);
+
+		SELECT @deletes -= 10000;
+
+	COMMIT TRANSACTION
+
+END
