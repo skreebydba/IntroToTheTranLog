@@ -67,11 +67,17 @@
           <AssociatedConnUserName />
           <FullPath>LG8 - BackupLogs.sql</FullPath>
         </FileNode>
-        <FileNode Name="LSR7 - ReturnTransactionInfo.sql">
+        <FileNode Name="LSR6 - DeleteOrderHistorySingleTable.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgtranlogsrv:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>fbgtranlogsrv</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>LSR7 - ReturnTransactionInfo.sql</FullPath>
+          <FullPath>LSR6 - DeleteOrderHistorySingleTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LSR7 - DeleteOrderHistoryBatchedTableByDate.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgtranlogsrv:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>fbgtranlogsrv</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LSR7 - DeleteOrderHistoryBatchedTableByDate.sql</FullPath>
         </FileNode>
         <FileNode Name="LSR2 - CreateTranLogDemoDatabase.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgtranlogsrv:True</AssociatedConnectionMoniker>
@@ -103,11 +109,17 @@
           <AssociatedConnUserName />
           <FullPath>LSR5 - PopulateOrderHistorySingleTable.sql</FullPath>
         </FileNode>
-        <FileNode Name="LSR6 - CaptureTransactionInfo.sql">
+        <FileNode Name="LSR8 - CaptureTransactionInfo.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgtranlogsrv:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>fbgtranlogsrv</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>LSR6 - CaptureTransactionInfo.sql</FullPath>
+          <FullPath>LSR8 - CaptureTransactionInfo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LSR9 - ReturnTransactionInfo.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgtranlogsrv:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>fbgtranlogsrv</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>LSR9 - ReturnTransactionInfo.sql</FullPath>
         </FileNode>
         <FileNode Name="RB - 1 - CreateRollbackTable.sql">
           <AssociatedConnectionMoniker />
