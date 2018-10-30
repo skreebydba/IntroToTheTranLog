@@ -27,7 +27,7 @@ BEGIN
 
 END
 
---INSERT INTO tempdb.dbo.TranLogBatchedLog
+--INSERT INTO TranLogDemo.dbo.TranLogBatchedLog
 --(CurrentLSN
 --,TransactionID
 --,XactID
@@ -60,7 +60,6 @@ END
 --,[Number of Locks]
 --,[Lock Information]
 --,[New Split Page]
---INTO #tranlog
 --FROM fn_dblog(@maxlsn,NULL);
 
 --SELECT TransactionID, Operation, Context, COUNT(*) 

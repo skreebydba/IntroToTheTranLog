@@ -154,6 +154,6 @@ GO
 ALTER DATABASE [SmallLog] SET  READ_WRITE 
 GO
 
-BACKUP DATABASE SmallLog TO DISK = 'D:\Backup\SmallLog_FULL.bak' WITH COMPRESSION, STATS = 5;
+BACKUP DATABASE SmallLog TO DISK = 'C:\Backups\SmallLog_FULL.bak' WITH COMPRESSION, STATS = 5;
 
 EXEC sp_cycle_errorlog;

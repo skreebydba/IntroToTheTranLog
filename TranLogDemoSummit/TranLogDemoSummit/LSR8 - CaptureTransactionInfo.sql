@@ -1,7 +1,7 @@
 USE master;
 
 --Truncate DatabaseTransactions table
-TRUNCATE TABLE tempdb.dbo.DatabaseTransactions;
+TRUNCATE TABLE TranLogDemo.dbo.DatabaseTransactions;
 
 -- Run an infinite loop for the duration of each update script
 -- stopping it when the script completes
@@ -9,7 +9,14 @@ TRUNCATE TABLE tempdb.dbo.DatabaseTransactions;
 WHILE 1 = 1
 BEGIN
  
-    INSERT INTO tempdb.dbo.DatabaseTransactions
+    INSERT INTO TranLogDemo.[dbo].[DatabaseTransactions]
+	(tranid
+	,databaseid
+	,trantype
+	,transtate
+	,logrecordcount
+	,logbytesused
+	,logbytesreserved)
     SELECT transaction_id AS [Tran ID], 
     database_id AS [Database ID], 
     database_transaction_type AS [Tran Type], 
@@ -20,3 +27,4 @@ BEGIN
     FROM sys.dm_tran_database_transactions
  
 END
+

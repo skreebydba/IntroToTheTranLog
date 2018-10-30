@@ -122,26 +122,26 @@
           <FullPath>LSR9 - ReturnTransactionInfo.sql</FullPath>
         </FileNode>
         <FileNode Name="RB - 1 - CreateRollbackTable.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgtranlogsrv:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>fbgtranlogsrv</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>RB - 1 - CreateRollbackTable.sql</FullPath>
         </FileNode>
         <FileNode Name="RB - 2 - RollbackInserts.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgtranlogsrv:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>fbgtranlogsrv</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>RB - 2 - RollbackInserts.sql</FullPath>
         </FileNode>
         <FileNode Name="RB - 3 - RollbackDeletes.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgtranlogsrv:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>fbgtranlogsrv</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>RB - 3 - RollbackDeletes.sql</FullPath>
         </FileNode>
         <FileNode Name="RB - 4 - RollbackUpdates.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgtranlogsrv:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>fbgtranlogsrv</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>RB - 4 - RollbackUpdates.sql</FullPath>
         </FileNode>

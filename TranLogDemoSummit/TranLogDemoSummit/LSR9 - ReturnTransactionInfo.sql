@@ -43,15 +43,15 @@ INSERT INTO #batched
 ,kbused
 ,kbreserved)
 SELECT tranid, 
-MAX(recordcount) AS [Record Count], 
-(MAX(bytesused)/1024) AS [KB Used], 
-(MAX(bytesreserved)/1024) AS [KB Reserved] 
-FROM tempdb.dbo.DatabaseTransactions
+MAX(logrecordcount) AS [Record Count], 
+(MAX(logbytesused)/1024) AS [KB Used], 
+(MAX(logbytesreserved)/1024) AS [KB Reserved] 
+FROM TranLogDemo.dbo.DatabaseTransactions
 WHERE databaseid = DB_ID('TranLogDemo_Batched')  -- Make sure to use the correct database name
 AND trantype = 1
 AND transtate = 4
 GROUP BY tranid
-HAVING MAX(recordcount) > 12
+HAVING MAX(logrecordcount) > 12
 ORDER BY [Record Count] DESC;
 
 SELECT COALESCE(CAST(tranid AS NVARCHAR(15)), 'Total') AS [Tran ID], 
@@ -63,15 +63,15 @@ GROUP BY tranid WITH ROLLUP
 ORDER BY SUM(recordcount);
 
 SELECT tranid, 
-MAX(recordcount) AS [Record Count], 
-(MAX(bytesused)/1024) AS [KB Used], 
-(MAX(bytesreserved)/1024) AS [KB Reserved] 
-FROM tempdb.dbo.DatabaseTransactions
+MAX(logrecordcount) AS [Record Count], 
+(MAX(logbytesused)/1024) AS [KB Used], 
+(MAX(logbytesreserved)/1024) AS [KB Reserved] 
+FROM TranLogDemo.dbo.DatabaseTransactions
 WHERE databaseid = DB_ID('TranLogDemo_Single')  -- Make sure to use the correct database name
 AND trantype = 1
 AND transtate = 4
 GROUP BY tranid
-HAVING MAX(recordcount) > 12
+HAVING MAX(logrecordcount) > 12
 ORDER BY [Record Count] DESC
 
 

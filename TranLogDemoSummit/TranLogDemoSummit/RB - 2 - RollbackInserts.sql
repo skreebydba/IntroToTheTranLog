@@ -47,9 +47,6 @@ GROUP BY Operation, Context, [Description], AllocUnitName;
 SELECT * FROM #rollbackinfo
 ORDER BY TotalOperations DESC;	
 
-SELECT ROUND((CAST(SUM(TotalReserved) AS DECIMAL(14,4))/CAST(MAX(TotalReserved) AS DECIMAL(14,4)) * 100),0)
-FROM #rollbackinfo;
-
 SELECT [Current LSN]
 ,[Transaction ID]
 ,[Transaction Name]
@@ -69,8 +66,3 @@ SELECT [Current LSN]
 FROM fn_dblog(@maxlsn,NULL)
 WHERE Operation IN ('LOP_INSERT_ROWS', 'LOP_DELETE_ROWS', 'LOP_MODIFY_ROW', 'LOP_SET_BITS')
 AND AllocUnitName = 'dbo.RollBackTable.IX_RollBackTable_RowId';
-
-
-SELECT * FROM fn_dblog(@maxlsn,NULL)
-WHERE AllocUnitName = 'dbo.RollBackTable.IX_RollBackTable_RowId'
-AND Operation IN ('LOP_INSERT_ROWS', 'LOP_DELETE_ROWS', 'LOP_MODIFY_ROW', 'LOP_SET_BITS');
