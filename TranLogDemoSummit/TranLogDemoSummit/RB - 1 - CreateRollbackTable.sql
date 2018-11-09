@@ -1,4 +1,4 @@
-USE OneTran;
+USE TranLogDemo_Batched;
 
 SET NOCOUNT ON;
 

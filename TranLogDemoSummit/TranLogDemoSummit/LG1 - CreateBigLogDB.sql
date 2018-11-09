@@ -20,7 +20,7 @@ CREATE DATABASE [BigLog]
  LOG ON 
 ( NAME = N'BigLog_log', 
 	FILENAME = N'F:\Log\BigLog_log.ldf' , 
-	SIZE = 8192MB , 
+	SIZE = 1024MB , 
 	MAXSIZE = 2048GB , 
 	FILEGROWTH = 1024MB )
 GO
