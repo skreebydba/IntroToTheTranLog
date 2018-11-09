@@ -5,9 +5,9 @@ DROP DATABASE IF EXISTS TranLogDemo;
 CREATE DATABASE [TranLogDemo]
  CONTAINMENT = NONE
  ON  PRIMARY 
-( NAME = N'TranLogDemo', FILENAME = N'F:\Data\TranLogDemo.mdf' , SIZE = 1048576KB , FILEGROWTH = 1048576KB )
+( NAME = N'TranLogDemo', FILENAME = N'C:\Data\TranLogDemo.mdf' , SIZE = 128MB , FILEGROWTH = 128MB )
  LOG ON 
-( NAME = N'TranLogDemo_log', FILENAME = N'F:\Log\TranLogDemo_log.ldf' , SIZE = 1048576KB , FILEGROWTH = 1048576KB )
+( NAME = N'TranLogDemo_log', FILENAME = N'C:\Log\TranLogDemo_log.ldf' , SIZE = 128MB , FILEGROWTH = 128MB )
 GO
 ALTER DATABASE [TranLogDemo] SET COMPATIBILITY_LEVEL = 130
 GO

@@ -3,10 +3,22 @@
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
-        <ConnectionNode Name="fbgtranlogsrv:fbgtranlogsrv\skreeby">
-          <Created>2018-10-17T19:12:33.7881892+00:00</Created>
+        <ConnectionNode Name="CNCYBOOK82\CTP2019:CONCURRENCY\fgill">
+          <Created>2018-11-03T18:57:59.6263575-05:00</Created>
           <Type>SQL</Type>
-          <Server>fbgtranlogsrv</Server>
+          <Server>CNCYBOOK82\CTP2019</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>tempdb</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="cncybook82\dev2017:CONCURRENCY\fgill">
+          <Created>2018-10-29T21:49:14.83537-05:00</Created>
+          <Type>SQL</Type>
+          <Server>cncybook82\dev2017</Server>
           <UserName />
           <Authentication>Windows Authentication</Authentication>
           <InitialDB />
@@ -20,128 +32,128 @@
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
         <FileNode Name="LG1 - CreateBigLogDB.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgtranlogsrv:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>fbgtranlogsrv</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>LG1 - CreateBigLogDB.sql</FullPath>
         </FileNode>
         <FileNode Name="LG2 - CreateSmallLogDB.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgtranlogsrv:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>fbgtranlogsrv</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>LG2 - CreateSmallLogDB.sql</FullPath>
         </FileNode>
         <FileNode Name="LG3 - CreateTestTables.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgtranlogsrv:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>fbgtranlogsrv</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>LG3 - CreateTestTables.sql</FullPath>
         </FileNode>
         <FileNode Name="LG4 - CreateInsertBigLogTable.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgtranlogsrv:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>fbgtranlogsrv</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>LG4 - CreateInsertBigLogTable.sql</FullPath>
         </FileNode>
         <FileNode Name="LG5 - CreateInsertSmallLogTable.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgtranlogsrv:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>fbgtranlogsrv</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>LG5 - CreateInsertSmallLogTable.sql</FullPath>
         </FileNode>
         <FileNode Name="LG6 - ExecInsertProcs.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgtranlogsrv:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>fbgtranlogsrv</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>LG6 - ExecInsertProcs.sql</FullPath>
         </FileNode>
         <FileNode Name="LG7 - GetLogSize.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgtranlogsrv:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>fbgtranlogsrv</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>LG7 - GetLogSize.sql</FullPath>
         </FileNode>
         <FileNode Name="LG8 - BackupLogs.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgtranlogsrv:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>fbgtranlogsrv</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>LG8 - BackupLogs.sql</FullPath>
         </FileNode>
         <FileNode Name="LSR6 - DeleteOrderHistorySingleTable.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgtranlogsrv:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>fbgtranlogsrv</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:cncybook82\dev2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>cncybook82\dev2017</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>LSR6 - DeleteOrderHistorySingleTable.sql</FullPath>
         </FileNode>
         <FileNode Name="LSR7 - DeleteOrderHistoryBatchedTableByDate.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgtranlogsrv:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>fbgtranlogsrv</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:cncybook82\dev2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>cncybook82\dev2017</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>LSR7 - DeleteOrderHistoryBatchedTableByDate.sql</FullPath>
         </FileNode>
         <FileNode Name="LSR2 - CreateTranLogDemoDatabase.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgtranlogsrv:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>fbgtranlogsrv</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:cncybook82\dev2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>cncybook82\dev2017</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>LSR2 - CreateTranLogDemoDatabase.sql</FullPath>
         </FileNode>
         <FileNode Name="LSR1 - RestoreTranLogDemoDBs.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgtranlogsrv:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>fbgtranlogsrv</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:cncybook82\dev2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>cncybook82\dev2017</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>LSR1 - RestoreTranLogDemoDBs.sql</FullPath>
         </FileNode>
         <FileNode Name="LSR3 - CreateOrderHistoryTables.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgtranlogsrv:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>fbgtranlogsrv</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:cncybook82\dev2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>cncybook82\dev2017</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>LSR3 - CreateOrderHistoryTables.sql</FullPath>
         </FileNode>
         <FileNode Name="LSR4 - PopulateOrderHistoryBatchedTable.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgtranlogsrv:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>fbgtranlogsrv</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>LSR4 - PopulateOrderHistoryBatchedTable.sql</FullPath>
         </FileNode>
         <FileNode Name="LSR5 - PopulateOrderHistorySingleTable.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgtranlogsrv:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>fbgtranlogsrv</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>LSR5 - PopulateOrderHistorySingleTable.sql</FullPath>
         </FileNode>
         <FileNode Name="LSR8 - CaptureTransactionInfo.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgtranlogsrv:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>fbgtranlogsrv</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:cncybook82\dev2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>cncybook82\dev2017</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>LSR8 - CaptureTransactionInfo.sql</FullPath>
         </FileNode>
         <FileNode Name="LSR9 - ReturnTransactionInfo.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgtranlogsrv:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>fbgtranlogsrv</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:cncybook82\dev2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>cncybook82\dev2017</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>LSR9 - ReturnTransactionInfo.sql</FullPath>
         </FileNode>
         <FileNode Name="RB - 1 - CreateRollbackTable.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgtranlogsrv:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>fbgtranlogsrv</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>RB - 1 - CreateRollbackTable.sql</FullPath>
         </FileNode>
         <FileNode Name="RB - 2 - RollbackInserts.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgtranlogsrv:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>fbgtranlogsrv</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CNCYBOOK82\CTP2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>CNCYBOOK82\CTP2019</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>RB - 2 - RollbackInserts.sql</FullPath>
         </FileNode>
         <FileNode Name="RB - 3 - RollbackDeletes.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgtranlogsrv:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>fbgtranlogsrv</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>RB - 3 - RollbackDeletes.sql</FullPath>
         </FileNode>
         <FileNode Name="RB - 4 - RollbackUpdates.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:fbgtranlogsrv:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>fbgtranlogsrv</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>RB - 4 - RollbackUpdates.sql</FullPath>
         </FileNode>
