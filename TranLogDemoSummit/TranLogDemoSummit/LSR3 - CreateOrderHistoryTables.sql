@@ -6,13 +6,13 @@ DROP TABLE IF EXISTS TranLogDemoBatched.dbo.OrderHistoryBatched;
 
 DROP TABLE IF EXISTS TranLogDemoSingle.dbo.OrderHistorySingle;
 
-CREATE TABLE TranLogDemoBatched.dbo.OrderHistoryBatched
+CREATE TABLE TranLogDemo_Batched.dbo.OrderHistoryBatched
 (OrderId INT IDENTITY(1,1)
 ,OrderDate DATETIME
 ,CustomerId INT
 ,CONSTRAINT PK_OrderHistoryBatched_OrderId PRIMARY KEY CLUSTERED(OrderId));
 
-CREATE TABLE TranLogDemoSingle.dbo.OrderHistorySingle
+CREATE TABLE TranLogDemo_Single.dbo.OrderHistorySingle
 (OrderId INT IDENTITY(1,1)
 ,OrderDate DATETIME
 ,CustomerId INT
